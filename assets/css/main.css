@@ -1,0 +1,206 @@
+		@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+		body {
+			background: #007bff;
+			/* background: linear-gradient(to right, #0062E6, #33AEFF); */
+			/* background: linear-gradient(to right, #2e7292, #33ffaa); */
+			/* background: linear-gradient(to right,#229e4ec7 , #2e7292); */
+			background: linear-gradient(to right, #0a3458c9, #2e7292);
+
+			font-family: 'Varela Round', serif;
+
+			/* background: #0f2027; /* fallback for old browsers */
+			/* background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+			/* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+
+		table.dataTable thead .sorting:after,
+		table.dataTable thead .sorting:before,
+		table.dataTable thead .sorting_asc:after,
+		table.dataTable thead .sorting_asc:before,
+		table.dataTable thead .sorting_asc_disabled:after,
+		table.dataTable thead .sorting_asc_disabled:before,
+		table.dataTable thead .sorting_desc:after,
+		table.dataTable thead .sorting_desc:before,
+		table.dataTable thead .sorting_desc_disabled:after,
+		table.dataTable thead .sorting_desc_disabled:before {
+			bottom: .5em;
+		}
+
+		#tableSection {
+			padding: 10px 5px 0 30px;
+		}
+
+		.my-custom-scrollbar {
+			position: relative;
+			height: 650px;
+			overflow: auto;
+		}
+
+		.add-shadow {
+			-moz-box-shadow: 2px 2px 2px 2px #00000073;
+			-webkit-box-shadow: 2px 2px 2px 2px #00000073;
+			box-shadow: 2px 2px 2px 2px #00000073;
+		}
+
+		.table-wrapper-scroll-y {
+			display: block;
+			background-color: #fffffff2;
+
+		}
+
+		#dataTable {
+			background-color: #fffffff2;
+		}
+
+		#dataTable thead th {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+
+		#dataTable tbody {
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			font-size: 14px;
+		}
+
+		.control-section {
+			margin: 10px 10px 10px 0;
+		}
+
+		.card-header {
+			background-color: #ffeb3b6b;
+		}
+
+		.card-body {
+			padding: 0.25rem !important;
+			background-color: #c2daf93d;
+		}
+
+		/*Flat UI Design Checkboxes*/
+		.flatboxes {
+			padding: 5%;
+			width: 40%;
+		}
+
+		.flatboxes p {
+			display: block;
+			height: 30px;
+			vertical-align: middle;
+		}
+
+		.flatboxes [type="checkbox"]:not(:checked),
+		.flatboxes [type="checkbox"]:checked {
+			position: absolute;
+			left: -9999px;
+		}
+
+		.flatboxes [type="checkbox"]:not(:checked)+label,
+		.flatboxes [type="checkbox"]:checked+label {
+			position: absolute;
+			padding-left: 95px;
+			cursor: pointer;
+		}
+
+		.flatboxes [type="checkbox"]:not(:checked)+label:before,
+		.flatboxes [type="checkbox"]:checked+label:before,
+		.flatboxes [type="checkbox"]:not(:checked)+label:after,
+		.flatboxes [type="checkbox"]:checked+label:after {
+			content: '';
+			position: absolute;
+		}
+
+		.flatboxes [type="checkbox"]:not(:checked)+label:before,
+		.flatboxes [type="checkbox"]:checked+label:before {
+			left: 0;
+			top: 0;
+			width: 80px;
+			height: 30px;
+			background: #DDDDDD;
+			transition: background-color .2s;
+		}
+
+		.flatboxes [type="checkbox"]:not(:checked)+label:after,
+		.flatboxes [type="checkbox"]:checked+label:after {
+			width: 30px;
+			height: 30px;
+			transition: all .3s;
+			background: #7F8C9A;
+			top: 0;
+			left: 0;
+		}
+
+		/* on checked */
+		.flatboxes [type="checkbox"]:checked+label:before {
+			background: #34495E;
+		}
+
+		.flatboxes [type="checkbox"]:checked+label:after {
+			background: #6cc0e5;
+			top: 0;
+			left: 51px;
+		}
+
+		.flatboxes [type="checkbox"]:checked+label .ui,
+		.flatboxes [type="checkbox"]:not(:checked)+label .ui:before,
+		.flatboxes [type="checkbox"]:checked+label .ui:after {
+			position: absolute;
+			left: 6px;
+			width: 65px;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 22px;
+			transition: all .3s;
+		}
+
+		.flatboxes [type="checkbox"]:not(:checked)+label .ui:before {
+			font-family: 'Font Awesome 5 Free';
+			content: "\f070";
+			left: 46px;
+			margin-top: 3px;
+		}
+
+		.flatboxes [type="checkbox"]:checked+label .ui:after {
+			font-family: 'Font Awesome 5 Free';
+			content: "\f06e";
+			color: #fbfbfb;
+			margin-top: 3px;
+			left: 12px;
+		}
+
+		.flatboxes [type="checkbox"]:focus+label:before {
+			border: 0;
+			outline: 0;
+			box-sizing: border-box;
+		}
+
+		.yield-chart {
+			margin: 10px 10px 10px 0;
+			padding: 20px 10px 0px 10px;
+			background-color: #f5fff7;
+		}
+
+		#doughnutChart {
+			object-fit: contain;
+		}
+
+		#binResults {
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			background-color: #fffffff2;
+
+		}
+
+		#binResults tbody tr {
+			color: #F44336;
+			font-size: 12px;
+
+		}
+
+		#binResults thead th {
+			font-size: 18px;
+		}
+
+		#binResults tbody tr:first-child {
+			font-size: 14px;
+			color: green;
+		}

@@ -1,0 +1,486 @@
+
+GL Continuity, LoLim: -0.7, HiLim: -0.3
+
+GH Continuity, LoLim: -0.7, HiLim: -0.3
+
+FCCM Continuity, LoLim: -0.9, HiLim: -0.3
+
+VIN Continuity, LoLim: -0.85, HiLim: -0.3
+
+PHASE Continuity, LoLim: -0.31, HiLim: -0.05
+
+SW Continuity, LoLim: -0.31, HiLim: -0.05
+
+BOOT Continuity, LoLim: -0.7, HiLim: -0.4
+
+VCC Continuity, LoLim: -0.9, HiLim: -0.3
+
+PWM Continuity, LoLim: -0.8, HiLim: -0.4
+
+PVCC Continuity, LoLim: -0.8, HiLim: -0.4
+
+PRE_I_PVCC, LoLim: -16, HiLim: 16
+
+PRE_I_VCC, LoLim: -10, HiLim: 500
+
+PRE_I_VIN, LoLim: -0.8, HiLim: 20
+
+PRE_I_FCCM, LoLim: 40, HiLim: 80
+
+PRE_I_PWM, LoLim: 5, HiLim: 50
+
+AMR_I_PVCC, LoLim: -15, HiLim: 25
+
+AMR_I_VCC, LoLim: -15, HiLim: 600
+
+AMR_I_VIN, LoLim: -2, HiLim: 40
+
+AMR_I_FCCM, LoLim: 20, HiLim: 100
+
+AMR_I_PWM, LoLim: 5, HiLim: 80
+
+POST_I_PVCC, LoLim: -16, HiLim: 16
+
+POST_I_VCC, LoLim: -10, HiLim: 500
+
+POST_I_VIN, LoLim: -0.8, HiLim: 20
+
+POST_I_FCCM, LoLim: 40, HiLim: 80
+
+POST_I_PWM, LoLim: 5, HiLim: 50
+
+DELTA_I_PVCC, LoLim: -10, HiLim: 10
+
+DELTA_I_VCC, LoLim: -10, HiLim: 10
+
+DELTA_I_VIN, LoLim: -30, HiLim: 30
+
+DELTA_I_FCCM, LoLim: -1.5, HiLim: 1.5
+
+DELTA_I_PWM, LoLim: -3.5, HiLim: 3.5
+
+Boot_Diode_IR, LoLim: -10, HiLim: 45
+
+Boot_SW, LoLim: -10, HiLim: 35
+
+Boot_Diode_VF, LoLim: 340, HiLim: 790
+
+IQ_VIN_1000F_5, LoLim: 34, HiLim: 85
+
+IQ_VIN_1000F_5_5, LoLim: 34, HiLim: 85
+
+IQ_VIN_1000F_6, LoLim: 33, HiLim: 100
+
+IQ_Ratio_5V_6V, LoLim: 85, HiLim: 110
+
+SW_PF00, LoLim: 0.9, HiLim: 1.1
+
+SW_PF01, LoLim: -0.1, HiLim: 0.1
+
+SW_PF11, LoLim: 11.9, HiLim: 12.1
+
+SW_PF10, LoLim: 11.9, HiLim: 12.1
+
+SW_PFx1, LoLim: 0.9, HiLim: 1.1
+
+SW_PFx0, LoLim: 0.9, HiLim: 1.1
+
+SW_PF1x, LoLim: 0.9, HiLim: 1.1
+
+SW_PF0x, LoLim: 0.9, HiLim: 1.1
+
+SW_PF00, LoLim: 0.9, HiLim: 1.1
+
+IQ_PFxx_VCC, LoLim: 0.4, HiLim: 9
+
+IQ_PFxx_PVCC, LoLim: -0.08, HiLim: 0.18
+
+IQ_PFxx_VIN, LoLim: -0.08, HiLim: 0.08
+
+IQ_PFx0_VCC, LoLim: 50, HiLim: 155
+
+IQ_PFx0_PVCC, LoLim: -0.08, HiLim: 0.22
+
+IQ_PFx0_VIN, LoLim: -0.08, HiLim: 0.08
+
+IQ_PFx1_VCC, LoLim: 50, HiLim: 100
+
+IQ_PFx1_PVCC, LoLim: -0.08, HiLim: 0.08
+
+IQ_PFx1_VIN, LoLim: -0.2, HiLim: 1
+
+IQ_PF11_VCC, LoLim: 50, HiLim: 155
+
+IQ_PF11_PVCC, LoLim: -0.08, HiLim: 0.9
+
+IQ_PF11_VIN, LoLim: -0.2, HiLim: 1
+
+IQ_PF10_VCC, LoLim: 50, HiLim: 350
+
+IQ_PF10_PVCC, LoLim: -0.8, HiLim: 2.5
+
+IQ_PF10_VIN, LoLim: -0.2, HiLim: 1
+
+IQ_PF01_VCC, LoLim: 50, HiLim: 350
+
+IQ_PF01_PVCC, LoLim: -5, HiLim: 5
+
+IQ_PF01_VIN, LoLim: -0.08, HiLim: 0.08
+
+I_PWM_Hi, LoLim: 200, HiLim: 350
+
+I_PWM_Lo, LoLim: -350, HiLim: -200
+
+PWM_Tri_Lo, LoLim: 0.9, HiLim: 1.1
+
+PWM_VIH, LoLim: 11.9, HiLim: 12.1
+
+PWM_Tri_Hi, LoLim: 0.9, HiLim: 1.1
+
+PWM_VIL, LoLim: -0.1, HiLim: 0.1
+
+FCCM_float, LoLim: 1.6, HiLim: 3
+
+FCCM_Tri_Lo, LoLim: 0.9, HiLim: 1.1
+
+FCCM_Tri_Hi, LoLim: 0.9, HiLim: 1.1
+
+FCCM_VIH, LoLim: 4.9, HiLim: 5.1
+
+FCCM_VIL, LoLim: -0.1, HiLim: 0.1
+
+I_FCCM_Hi, LoLim: 20, HiLim: 70
+
+I_FCCM_Lo, LoLim: -70, HiLim: -20
+
+UVLO_Up, LoLim: 2.8, HiLim: 3.83
+
+UVLO_Dn, LoLim: 2.56, HiLim: 3.43
+
+UVLO_hys, LoLim: 190, HiLim: 700
+
+LdrvSource, LoLim: 0.55, HiLim: 2
+
+LdrvSink, LoLim: 0.3, HiLim: 1.05
+
+HdrvSource, LoLim: 0.55, HiLim: 2
+
+HdrvSink, LoLim: 0.55, HiLim: 2
+
+HS_Vgsth, LoLim: 0.85, HiLim: 2
+
+HSFET_VSD, LoLim: 0.7, HiLim: 0.95
+
+HSFET_IDSS, LoLim: -0.1, HiLim: 20
+
+HSFET_IDON, LoLim: 29, HiLim: 31
+
+HSFET_RDSON, LoLim: 5.13, HiLim: 9.35
+
+LS_Vgsth, LoLim: 1.15, HiLim: 2
+
+LSFET_VSD, LoLim: 0.6, HiLim: 0.87
+
+LSFET_IDSS, LoLim: 0.4, HiLim: 50
+
+LSFET_IDON, LoLim: 29, HiLim: 31
+
+LSFET_RDSON, LoLim: 1.93, HiLim: 3.95
+
+Tr_gh, LoLim: 3, HiLim: 15
+
+Tf_gh, LoLim: 2, HiLim: 15
+
+Td_deadon, LoLim: 10, HiLim: 29
+
+Tpd_plghl, LoLim: 13, HiLim: 30
+
+Tpd_phghh, LoLim: 33, HiLim: 51
+
+Tpd_tsghh, LoLim: 23, HiLim: 46
+
+Tr_gl, LoLim: 3, HiLim: 35
+
+Tf_gl, LoLim: 2, HiLim: 22
+
+Tpd_phgll, LoLim: 17, HiLim: 35
+
+Tpd_tsglh, LoLim: 12, HiLim: 29
+
+Td_holdoff, LoLim: 125, HiLim: 200
+
+Tpd_flgll, LoLim: 500, HiLim: 5000
+
+Tpd_fhglh, LoLim: 110, HiLim: 200
+
+Tps_exit, LoLim: 0.5, HiLim: 5
+
+Td_por, LoLim: 1, HiLim: 5
+
+Tdeadoff, LoLim: 5, HiLim: 25
+
+Tdeadon, LoLim: 6, HiLim: 30
+
+POST_I_PVCC, LoLim: -16, HiLim: 16
+
+POST_I_VCC, LoLim: -10, HiLim: 500
+
+POST_I_VIN, LoLim: -0.8, HiLim: 20
+
+POST_I_FCCM, LoLim: 40, HiLim: 80
+
+POST_I_PWM, LoLim: 5, HiLim: 50
+
+DELTA_I_PVCC, LoLim: -10, HiLim: 10
+
+DELTA_I_VCC, LoLim: -10, HiLim: 10
+
+DELTA_I_VIN, LoLim: -30, HiLim: 30
+
+DELTA_I_FCCM, LoLim: -1.5, HiLim: 1.5
+
+DELTA_I_PWM, LoLim: -3.5, HiLim: 3.5
+
+Dummy, LoLim: -999, HiLim: 999
+
+GL Continuity, LoLim: -0.9, HiLim: -0.2
+
+GH Continuity, LoLim: -0.9, HiLim: -0.3
+
+FCCM Continuity, LoLim: -1, HiLim: -0.2
+
+VIN Continuity, LoLim: -1, HiLim: -0.2
+
+PHASE Continuity, LoLim: -0.9, HiLim: -0.03
+
+SW Continuity, LoLim: -0.9, HiLim: -0.03
+
+BOOT Continuity, LoLim: -0.9, HiLim: -0.3
+
+VCC Continuity, LoLim: -0.9, HiLim: -0.3
+
+PWM Continuity, LoLim: -0.9, HiLim: -0.2
+
+PVCC Continuity, LoLim: -0.9, HiLim: -0.3
+
+PRE_I_PVCC, LoLim: -20, HiLim: 20
+
+PRE_I_VCC, LoLim: -10, HiLim: 550
+
+PRE_I_VIN, LoLim: -1, HiLim: 22
+
+PRE_I_FCCM, LoLim: 35, HiLim: 95
+
+PRE_I_PWM, LoLim: 5, HiLim: 80
+
+AMR_I_PVCC, LoLim: -15, HiLim: 50
+
+AMR_I_VCC, LoLim: -15, HiLim: 650
+
+AMR_I_VIN, LoLim: -2, HiLim: 45
+
+AMR_I_FCCM, LoLim: -20, HiLim: 110
+
+AMR_I_PWM, LoLim: 5, HiLim: 100
+
+POST_I_PVCC, LoLim: -16, HiLim: 20
+
+POST_I_VCC, LoLim: -10, HiLim: 550
+
+POST_I_VIN, LoLim: -1, HiLim: 22
+
+POST_I_FCCM, LoLim: 35, HiLim: 95
+
+POST_I_PWM, LoLim: 5, HiLim: 80
+
+DELTA_I_PVCC, LoLim: -10, HiLim: 10
+
+DELTA_I_VCC, LoLim: -12, HiLim: -12
+
+DELTA_I_VIN, LoLim: -30, HiLim: 30
+
+DELTA_I_FCCM, LoLim: -1.5, HiLim: 1.5
+
+DELTA_I_PWM, LoLim: -4, HiLim: 4
+
+Boot_Diode_IR, LoLim: -15, HiLim: 100
+
+Boot_SW, LoLim: -15, HiLim: 100
+
+Boot_Diode_VF, LoLim: 290, HiLim: 790
+
+IQ_VIN_1000F_5, LoLim: 0, HiLim: 100
+
+IQ_VIN_1000F_5_5, LoLim: 0, HiLim: 100
+
+IQ_VIN_1000F_6, LoLim: 0, HiLim: 120
+
+IQ_Ratio_5V_6V, LoLim: 85, HiLim: 115
+
+SW_PF00, LoLim: 0.9, HiLim: 1.1
+
+SW_PF01, LoLim: -0.1, HiLim: 1.1
+
+SW_PF11, LoLim: 11.9, HiLim: 12.1
+
+SW_PF10, LoLim: 11.9, HiLim: 12.1
+
+SW_PFx1, LoLim: 0.9, HiLim: 1.1
+
+SW_PFx0, LoLim: 0.9, HiLim: 1.1
+
+SW_PF1x, LoLim: 0.9, HiLim: 1.1
+
+SW_PF0x, LoLim: 0.9, HiLim: 1.1
+
+SW_PF00, LoLim: 0.9, HiLim: 1.1
+
+IQ_PFxx_VCC, LoLim: 0.3, HiLim: 10
+
+IQ_PFxx_PVCC, LoLim: -0.1, HiLim: 0.189
+
+IQ_PFxx_VIN, LoLim: -0.1, HiLim: 0.084
+
+IQ_PFx0_VCC, LoLim: 45, HiLim: 170
+
+IQ_PFx0_PVCC, LoLim: -0.1, HiLim: 0.231
+
+IQ_PFx0_VIN, LoLim: -0.1, HiLim: 0.084
+
+IQ_PFx1_VCC, LoLim: 45, HiLim: 110
+
+IQ_PFx1_PVCC, LoLim: -0.1, HiLim: 0.084
+
+IQ_PFx1_VIN, LoLim: -0.21, HiLim: 1.05
+
+IQ_PF11_VCC, LoLim: 45, HiLim: 170
+
+IQ_PF11_PVCC, LoLim: -0.1, HiLim: 0.945
+
+IQ_PF11_VIN, LoLim: -0.21, HiLim: 1.05
+
+IQ_PF10_VCC, LoLim: 45, HiLim: 375
+
+IQ_PF10_PVCC, LoLim: -1, HiLim: 2.625
+
+IQ_PF10_VIN, LoLim: -0.21, HiLim: 1.21
+
+IQ_PF01_VCC, LoLim: 45, HiLim: 375
+
+IQ_PF01_PVCC, LoLim: -5.25, HiLim: 5.25
+
+IQ_PF01_VIN, LoLim: -0.1, HiLim: 0.1
+
+I_PWM_Hi, LoLim: 150, HiLim: 500
+
+I_PWM_Lo, LoLim: -500, HiLim: -150
+
+PWM_Tri_Lo, LoLim: 0.9, HiLim: 1.1
+
+PWM_VIH, LoLim: 11.9, HiLim: 12.1
+
+PWM_Tri_Hi, LoLim: 0.9, HiLim: 1.1
+
+PWM_VIL, LoLim: -0.1, HiLim: 0.1
+
+FCCM_float, LoLim: 1.5, HiLim: 3.5
+
+FCCM_Tri_Lo, LoLim: 0.9, HiLim: 1.1
+
+FCCM_Tri_Hi, LoLim: 0.9, HiLim: 1.1
+
+FCCM_VIH, LoLim: 4.9, HiLim: 5.1
+
+FCCM_VIL, LoLim: -0.1, HiLim: 0.1
+
+I_FCCM_Hi, LoLim: 10, HiLim: 130
+
+I_FCCM_Lo, LoLim: -130, HiLim: 130
+
+UVLO_Up, LoLim: 2.7, HiLim: 3.9
+
+UVLO_Dn, LoLim: 2.5, HiLim: 3.5
+
+UVLO_hys, LoLim: 0, HiLim: 800
+
+LdrvSource, LoLim: 0.5, HiLim: 2.4
+
+LdrvSink, LoLim: 0.25, HiLim: 1.1
+
+HdrvSource, LoLim: 0.5, HiLim: 2.5
+
+HdrvSink, LoLim: 0.5, HiLim: 2.5
+
+HS_Vgsth, LoLim: 0.8, HiLim: 2
+
+HSFET_VSD, LoLim: 0.65, HiLim: 1.2
+
+HSFET_IDSS, LoLim: -0.7, HiLim: 22
+
+HSFET_IDON, LoLim: 29, HiLim: 31
+
+HSFET_RDSON, LoLim: 4.91, HiLim: 9.4
+
+LS_Vgsth, LoLim: 1.1, HiLim: 2.05
+
+LSFET_VSD, LoLim: 0.5, HiLim: 1.2
+
+LSFET_IDSS, LoLim: 0.2, HiLim: 55
+
+LSFET_IDON, LoLim: 29, HiLim: 31
+
+LSFET_RDSON, LoLim: 1.806, HiLim: 4
+
+Tr_gh, LoLim: 1, HiLim: 23.4
+
+Tf_gh, LoLim: 1, HiLim: 31.2
+
+Td_deadon, LoLim: 10, HiLim: 30
+
+Tpd_plghl, LoLim: 12, HiLim: 32
+
+Tpd_phghh, LoLim: 31, HiLim: 54
+
+Tpd_tsghh, LoLim: 20, HiLim: 48
+
+Tr_gl, LoLim: 1, HiLim: 40
+
+Tf_gl, LoLim: 1, HiLim: 29
+
+Tpd_phgll, LoLim: 16, HiLim: 36
+
+Tpd_tsglh, LoLim: 9, HiLim: 31
+
+Td_holdoff, LoLim: 100, HiLim: 250
+
+Tpd_flgll, LoLim: 400, HiLim: 6000
+
+Tpd_fhglh, LoLim: 100, HiLim: 250
+
+Tps_exit, LoLim: 0.4, HiLim: 15
+
+Td_por, LoLim: 1, HiLim: 15
+
+Tdeadoff, LoLim: 3, HiLim: 50
+
+Tdeadon, LoLim: 3, HiLim: 35
+
+POST_I_PVCC, LoLim: -16, HiLim: 22
+
+POST_I_VCC, LoLim: -10, HiLim: 550
+
+POST_I_VIN, LoLim: -1, HiLim: 22
+
+POST_I_FCCM, LoLim: 35, HiLim: 95
+
+POST_I_PWM, LoLim: 5, HiLim: 80
+
+DELTA_I_PVCC, LoLim: -10, HiLim: 10
+
+DELTA_I_VCC, LoLim: -10, HiLim: 10
+
+DELTA_I_VIN, LoLim: -30, HiLim: 39
+
+DELTA_I_FCCM, LoLim: -1.5, HiLim: 1.95
+
+DELTA_I_PWM, LoLim: -3.5, HiLim: 4.55
